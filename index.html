@@ -20,16 +20,16 @@
   </header> -->
   <main>
     <section id="buttons">
-      <button id="red-btn">Red</button>
-      <button id="blue-btn">Blue</button>
-      <button id="green-btn">Green</button>
-      <button id="yellow-btn">Yellow</button>
+      <button id="red-btn" onclick="createRedBlock()">Red</button>
+      <button id="blue-btn" onclick="createBlueBlock()">Blue</button>
+      <button id="green-btn" onclick="createGreenBlock()">Green</button>
+      <button id="yellow-btn" onclick="createYellowBlock()">Yellow</button>
     </section>
     <section id="blocks">
-      <div class="block red-fill"></div>
-      <div class="block blue-fill"></div>
-      <div class="block green-fill"></div>
-      <div class="block yellow-fill"></div>
+      <div class="block red-fill" onclick="deleteBlock(event)"></div>
+      <div class="block blue-fill" onclick="deleteBlock(event)"></div>
+      <div class="block green-fill" onclick="deleteBlock(event)"></div>
+      <div class="block yellow-fill" onclick="deleteBlock(event)"></div>
     </section>
   </main>
 </body>
